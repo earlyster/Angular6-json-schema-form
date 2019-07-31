@@ -1,8 +1,8 @@
 {
-    "name": "angular6-json-schema-form",
-    "version": "7.3.0",
+    "name": "@earlyster/angular6-json-schema-form",
+    "version": "8.1.0-alpha",
     "description": "Angular JSON Schema Form builder",
-    "author": "https://github.com/hamzahamidi/Angular6-json-schema-form/graphs/contributors",
+    "author": "https://github.com/earlyster/Angular6-json-schema-form/graphs/contributors",
     "keywords": [
         "Angular",
         "ng",
@@ -20,10 +20,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hamzahamidi/angular6-json-schema-form"
+        "url": "git+https://github.com/earlyster/angular6-json-schema-form"
     },
     "bugs": {
-        "url": "https://github.com/hamzahamidi/angular6-json-schema-form/issues"
+        "url": "https://github.com/earlyster/angular6-json-schema-form/issues"
     },
     "private": false,
     "peerDependencies": {

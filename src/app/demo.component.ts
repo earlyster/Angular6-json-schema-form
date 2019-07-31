@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 import { Examples } from './example-schemas.model';
-import { JsonPointer } from 'angular6-json-schema-form';
+import { JsonPointer } from '@earlyster/angular6-json-schema-form';
 
 @Component({
   // tslint:disable-next-line:component-selector

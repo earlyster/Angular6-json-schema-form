@@ -151,17 +151,16 @@ export class FlexLayoutSectionComponent implements OnInit {
   options: any;
   expanded = true;
   containerType = 'div';
+  sectionTitle: string;
   @Input() layoutNode: any;
   @Input() layoutIndex: number[];
   @Input() dataIndex: number[];
 
   constructor(
     private jsf: JsonSchemaFormService
-  ) { }
-
-  get sectionTitle() {
-    return this.options.notitle ? null : this.jsf.setItemTitle(this);
+  ) {
   }
+
 
   ngOnInit() {
     this.jsf.initializeControl(this);
@@ -182,6 +181,10 @@ export class FlexLayoutSectionComponent implements OnInit {
       default: // 'div', 'flex', 'tab', 'conditional', 'actions'
         this.containerType = 'div';
     }
+    this.sectionTitle = this.options.notitle ? null : this.jsf.setItemTitle(this);
+
+
+
   }
 
   toggleExpanded() {

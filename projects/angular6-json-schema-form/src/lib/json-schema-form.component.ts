@@ -226,7 +226,9 @@ export class JsonSchemaFormComponent implements ControlValueAccessor, OnChanges,
 
       // Get names of changed inputs
       let changedInput = Object.keys(this.previousInputs)
-        .filter(input => this.previousInputs[input] !== this[input]);
+        .filter(input => {
+          return !isEqual(this.previousInputs[input], this[input]);
+      });
       let resetFirst = true;
       if (changedInput.length === 1 && changedInput[0] === 'form' &&
         this.formValuesInput.startsWith('form.')

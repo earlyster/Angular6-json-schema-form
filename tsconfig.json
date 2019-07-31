@@ -32,10 +32,10 @@
       "dom"
     ],
     "paths": {
-      "angular6-json-schema-form": [
+      "@earlyster/angular6-json-schema-form": [
         "dist/angular6-json-schema-form"
       ],
-      "angular6-json-schema-form/*": [
+      "@earlyster/angular6-json-schema-form/*": [
         "dist/angular6-json-schema-form/*"
       ]
     }

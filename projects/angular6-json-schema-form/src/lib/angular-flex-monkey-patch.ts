@@ -1,4 +1,4 @@
-import { MediaMarshaller } from '@angular/flex-layout/core';
+import { MediaMarshaller } from '@angular/flex-layout';
 
 export function fixAngularFlex() {
   // monkey patch based on errors in console  - https://github.com/angular/flex-layout/issues/1011
