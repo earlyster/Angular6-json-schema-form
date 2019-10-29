@@ -1,6 +1,6 @@
 {
     "name": "@earlyster/angular6-json-schema-form",
-    "version": "8.1.1-alpha",
+    "version": "8.1.3-alpha",
     "description": "Angular JSON Schema Form builder",
     "author": "https://github.com/earlyster/Angular6-json-schema-form/graphs/contributors",
     "keywords": [
@@ -12,6 +12,9 @@
         "Angular7",
         "Angular 7",
         "ng7",
+        "Angular8",
+        "Angular 8",
+        "ng8",
         "JSON Schema",
         "form",
         "forms",
